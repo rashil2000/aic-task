@@ -1,0 +1,119 @@
+* {
+  font-family: DM Sans;
+  margin: 0 auto;
+}
+.main {
+  width: 416px;
+  height: 660px;
+  background: rgba(255,255,255,1);
+  position: relative;
+  border-radius: 18px;
+  transform: translateY(50%);
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.08);
+}
+.banner {
+  height: 240px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  background: linear-gradient(rgba(245,130,31,1), rgba(255,92,0,1));
+  color: rgba(255,255,255,1);
+  padding: 20px 56px;
+  margin: 0 auto;
+}
+.name {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+.greet {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+.wave {
+  transform: translate(10px, 4px);
+}
+.intro {
+  font-size: 18px;
+}
+.content {
+  height: 420px;
+  background: rgba(255,255,255,1);
+  color: rgba(45,45,45,1);
+  position: absolute;
+  top: 200px;
+  left: 12px;
+  right: 12px;
+  border: 1px solid rgba(228,228,228,1);
+  border-radius: 8px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+}
+.heading {
+  width: 330px;
+  margin: 0 auto;
+  padding-top: 40px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.question {
+  transform: translate(5px, 4px);
+}
+.list {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.query {
+  width: 300px;
+  padding: 15px;
+  cursor: pointer;
+  background: rgba(255,255,255,1);
+  margin: 10px auto;
+  border: 1px solid rgba(225,225,225,1);
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+  font-size: 12px;
+  transition: background 100ms ease-in;
+}
+.query:hover {
+  background:   rgba(0, 0, 0, 0.05);
+}
+.bullet {
+  transform: translate(-3px, 3px);
+}
+.chat {
+  width: 240px;
+  cursor: pointer;
+  background: rgba(255,255,255,1);
+  margin: 20px auto;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid rgba(209,209,209,1);
+  border-radius: 100px;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  font-weight: bold;
+  transition: background 100ms ease-in;
+}
+.chat:hover {
+  background:  rgba(209,209,209,1);
+}
+.chat-icon {
+  transform: translate(-2px, 2px);
+}
+.bot-box {
+  position: absolute;
+  top: 165px;
+  left: 38px;
+  z-index: 1;
+}
+.bot-circle {
+  width: 67px;
+  height: 67px;
+  background: linear-gradient(rgba(255,118,0,1), rgba(255,92,0,1));
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+}
+.robot {
+ transform: translate(15px, 15px);
+}
