@@ -1,0 +1,27 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.banner {
+  animation: fadeIn 1s ease 1s 1 normal both;
+}
+.name, .greet, .intro, .bot-box {
+  animation: fadeIn 1s ease 2s 1 normal both;
+}
+.robot {
+  animation: fadeIn 0.5s ease 2.75s 1 alternate-reverse backwards;
+}
+.content {
+  animation: fadeIn 1s ease 3s 1 normal both;
+}
+.query {
+  animation: fadeIn 1s ease calc(3s + var(--animation-order) * 2s) 1 normal both;
+}
+.chat {
+  animation: fadeIn 1s ease 13s 1 normal both;
+}
