@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet" />
+  <link href="./css/main.css" rel="stylesheet" />
+  <link rel="icon" href="./images/chat.png">
+  <title>Home Page</title>
+</head>
+
+<body>
+  <h3 class="head">Click on the icon below to chat</h3>
+
+  <div id="popup">
+    <iframe src="./popup.html" class="frame"></iframe>
+  </div>
+
+  <div class="bot-box">
+    <div id="chat-button"><img class="robot" src="./images/bot.png" alt="bot"></div>
+  </div>
+
+  <script>
+    var checked = false;
+    document.getElementById('chat-button').addEventListener('click', e => {
+      if (!checked)
+        document.getElementById('popup').style.display = 'block';
+      else
+        document.getElementById('popup').style.display = 'none';
+      checked = !checked;
+    });
+  </script>
+</body>
+
+</html>
