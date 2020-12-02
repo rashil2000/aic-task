@@ -33,3 +33,13 @@
   width: 416px;
   border: 0px;
 }
+@media only screen and (max-height: 730px) {
+  .frame {
+    height: 70vh;
+  }
+}
+@media only screen and (max-width: 416px) {
+  .frame {
+    width: 100vw;
+  }
+}
